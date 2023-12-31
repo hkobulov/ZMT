@@ -19,7 +19,7 @@ html {
     height: 100%}
 
 body {
-    max-width: 1280px;
+    max-width: 1340px;
     margin: 0 auto;
     padding: 0;
     display: -webkit-box;
@@ -72,7 +72,8 @@ a {
     right: 0;
     z-index: 100;
     margin: 0 auto;
-    background-color: #78BE20;
+    background-color: #fff;
+    border-bottom: #008024 solid 3px;
     padding: 5px 40px;
 }
 
@@ -127,14 +128,13 @@ a {
     /* background-color: #fff;
     border-radius: 15px; */
     font-weight: 700;
-    color: #082269;
+    color: #008024;
     text-decoration: none;
 }
 
 .header-tel:hover {
-    color: #008024;
-    transform: scale(1.1) ease;
-    transition: color 0.3s ease;
+    color: #082269;
+    transition: color 0.5s ease-in;
 }
 
 /* About */
@@ -148,7 +148,6 @@ a {
     margin: 0;
     color: #008024;
     font-size: 40px;
-    text-transform: uppercase;
 }
 
 .about-desc {
@@ -169,7 +168,6 @@ a {
     margin: 0;
     color: #008024;
     font-size: 40px;
-    text-transform: uppercase;
 }
 
 .clinic-desc {
@@ -281,7 +279,8 @@ a {
     display: flex;
     padding: 5px 40px;
     justify-content: space-between;
-    background-color: #78BE20;
+    background-color: #fff;
+    border-top: #008024 solid 3px;
 }
 
 .footer-link {
@@ -309,6 +308,10 @@ a {
     color: #008024;
     transform: scale(1.1) ease-in;
     transition: color 0.3s ease-in;
+}
+
+.social-icons {
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 550px) {
